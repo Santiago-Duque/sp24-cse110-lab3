@@ -6,18 +6,83 @@ h1 {
     background-color: rgb(34, 130, 100);
     color:#abc;
     font-size: 3rem;
+    border-style: dotted;
+    border-color: cornflowerblue;
 }
 
 /* change positioning of "> List of Topics for Today's Meeting" */
 .lotftm {
-    margin-left: 70px; 
+    margin-left: 2pt; 
+    text-align: center;
+    border-style: dotted;
+    border-color: cornflowerblue;
+    background-color: rgb(34, 130, 100);
+    color: #abc;
+    font-size: 1.5rem;
+    height: 5vh;
 }
 
+/* change all h2 headers */
 h2 {
     text-align: center;
     color:darksalmon;
+    padding-top: 7%;
+    font-size: 3pc;
+    text-decoration: underline red double 5px;
 }
 
-#agenda {
-    
+/* change positions/colors/font sizes */
+.midattend {
+    padding-left: 45.5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    color: #abc;
+    background-color: rgb(34, 130, 100);
+    font-size: 1.5em;
+    border-style: dotted;
+    border-color: cornflowerblue;
+}
+
+/* change agenda area */
+#agenda  {
+    border-style: dotted;
+    border-color: cornflowerblue;
+    background-color: rgb(34, 130, 100);
+}
+
+/* change text positions */
+.midagenda {
+    padding-left: 43%;
+    padding-bottom: 5%;
+    padding-right: 0%;
+}
+
+/* change all h3 headers */
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* change position of all p text */
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#business {
+    border-style: dotted;
+    border-color: cornflowerblue;
+    background-color: rgb(34, 130, 100);
+}
+
+
+
+
+#misc {
+    width: 45vh;
+    border-style: dotted;
+    border-color: cornflowerblue;
+    margin: auto;
+    padding-bottom: 3%;
+    background-color: rgb(34, 130, 100);
 }
