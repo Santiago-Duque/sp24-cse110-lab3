@@ -1,1 +1,1 @@
-
+standup notes
