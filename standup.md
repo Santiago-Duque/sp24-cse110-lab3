@@ -1,1 +1,1 @@
-
+standup.md notes
