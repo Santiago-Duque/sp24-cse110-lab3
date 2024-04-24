@@ -6,6 +6,12 @@
     <title>Meeting Minutes</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
+    
+    <style>
+      a[target="foo"] {
+        background-color:hotpink;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,11 +21,11 @@
             <summary>List of Topics From Today's Meeting</summary>
             <nav>
                 <ul>
-                    <li><a href = "#agenda">Agenda</a></li>
-                    <li><a href = "#business">Business from Previous Meeting</a></li>
-                    <li><a href = "#misc">Miscellaneous</a></li>
-                    <li><a href = "#val">Valorant Video</a></li>
-                    <li><a href = "#beyonce">Beyonce Audio</a></li>
+                    <li><a href = "#agenda" target = "foo">Agenda</a></li>
+                    <li><a href = "#business" target = "foo">Business from Previous Meeting</a></li>
+                    <li><a href = "#misc" target = "foo">Miscellaneous</a></li>
+                    <li><a href = "#val" target = "foo">Valorant Video</a></li>
+                    <li><a href = "#beyonce" target = "foo">Beyonce Audio</a></li>
                 </ul>
             </nav>
           </details>
@@ -52,7 +58,7 @@
 
         <section id = "business">
           <h2>Business from Previous Meeting</h2>
-          <p>Intro to valorant was fully covered.</p>
+          <p class = "clrd">Intro to valorant was fully covered.</p>
 
           <h2>New Business</h2>
           <p>We discussed how <em>essential</em> it is to<br>practice in the range to improve aim.</p>
@@ -70,14 +76,16 @@
         </div>
 
         <p>Please <span>^ click the button!</span></p>
-        <a href = "https://playvalorant.com/en-gb/agents/skye/">Click here if button does not work</a>
+        <div class = "linkcntr">
+        <a class = "hvrd" href = "https://playvalorant.com/en-gb/agents/skye/">Click here if button does not work</a>
+        </div>
 
         <section id = "val">
           <h3>Valorant Video</h3>
           <video controls>
             <source src = "valvid.mp4" type = "video/mp4">
           </video>
-          <a href = "https://www.youtube.com/watch?v=2SGVLbL2FpI">Click to Watch the Full Video</a>
+          <a class = "hvrd" href = "https://www.youtube.com/watch?v=2SGVLbL2FpI">Click to Watch the Video on Youtube</a>
         </section>
 
         <section id = "beyonce">
