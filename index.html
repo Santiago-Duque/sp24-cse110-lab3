@@ -6,10 +6,21 @@
     <title>Meeting Minutes</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Links below for Raleway Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+
     <style>
       a[target="foo"] {
         background-color:hotpink;
+      }
+
+      span {
+        display:block;
+      }
+
+      li {
+        display:inline;
       }
     </style>
   </head>
@@ -37,11 +48,14 @@
         <h2>Brainstorming</h2>
         <h3>04/10/2024</h3>
         <hr>
-        <div class = "midattend">
+        <div class = "attcenter"> 
         <p><b>Attendance List:</b></p>
+        </div>
+
+        <div class = "midattend">
         <ul>
-            <li>Bestie</li>
-            <li>Dog</li>
+            <li>Bestie, </li>
+            <li>Dog, </li>
             <li>Friend</li>
         </ul>
         </div>
@@ -50,7 +64,7 @@
           <h2>Agenda</h2>
           <div class = "midagenda">
           <ol>
-              <li>Practice In the <strong>Shooting Range</strong></li>
+              <li>Practice In the <strong>Shooting Range</strong> | </li>
               <li>Discuss <i>Tips</i> to Improve</li>
           </ol>
           </div>
@@ -58,7 +72,7 @@
 
         <section id = "business">
           <h2>Business from Previous Meeting</h2>
-          <p class = "clrd">Intro to valorant was fully covered.</p>
+          <p class = "clrd">Intro to valorant <span></span>was fully covered.</p>
 
           <h2>New Business</h2>
           <p>We discussed how <em>essential</em> it is to<br>practice in the range to improve aim.</p>
@@ -69,13 +83,16 @@
           <p>No questions/comments/concerns brought up.</p>
         </section>
 
+        <div class = "skyepic">
         <img src = "skye.png" alt = "Image of Skye">
-        <div>
-          <p>Learn about Valorant's <b>Skye</b>!:</p>
-          <button>Click here</button>
         </div>
 
-        <p>Please <span>^ click the button!</span></p>
+        <div class = "skye">
+          <p>Learn about Valorant's <b>Skye</b>: </p>
+          <button class = "button">Click here</button>
+        </div>
+
+        <p>Please <span>click the button! ^</span></p>
         <div class = "linkcntr">
         <a class = "hvrd" href = "https://playvalorant.com/en-gb/agents/skye/">Click here if button does not work</a>
         </div>
@@ -89,7 +106,7 @@
         </section>
 
         <section id = "beyonce">
-          <h3>Beyonce</h3>
+          <h3>Listen to "Cuff It" by Beyonce!: </h3>
           <audio controls>
             <source src = "beyaudio.mp3" type = "audio/mp3">
           </audio>
@@ -132,8 +149,10 @@
     </fieldset>
     <button>Submit</button>
 
+    <div class = "foot">
     <footer>
       <p>2024 University of California San Diego. All rights reserved.</p>
     </footer>
+    </div>
   </body>
 </html> 
